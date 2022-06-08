@@ -3,7 +3,7 @@
      --blanco:#ffffff;
      --oscuro:#212121;
      --primario: #F32B6E; 
-     --gris: #757575;
+     --secundario: #62F0DF;
      --fondito: #E24DEC; 
      --rosita: #FCDFFE;
  }
@@ -55,7 +55,7 @@
     border-radius: 1rem;
 }
 
-.btn {
+.btnDe, .btnIn {
     text-transform: uppercase;
     background: transparent;
     color: var(--oscuro);
@@ -69,16 +69,16 @@
     margin: 0.5rem;
   }
 
-  .btn:hover {
+  .btnIn:hover {
     color: var(--blanco);
     font-weight: bolder;
     background: var(--primario);
     border: 2px solid var(--blanco);
   }
 
-  .btn menor:hover {
-    color: var(--blanco);
+  .btnDe:hover {
+    color: var(--oscuro);
     font-weight: bolder;
-    background: var(--primario);
+    background: var(--secundario);
     border: 2px solid var(--blanco);
   }
